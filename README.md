@@ -10,5 +10,7 @@ This repo includes a sample code for a simulation I generated for my Msc Thesis.
 
 The code in this repo uses the recorded data in the previous step as the starting point. In other words, the simulation starts from the point where the soft robot is already interacting with the environment. In the simulation, we assume that the base of the soft robot is attached with a dc motor (or a step motor) and it can rotate from the base. This allows soft robot to move along a surface with constant applied force.
 
+You can access my thesis from this link: https://research.sabanciuniv.edu/id/eprint/47043/1/10335618.pdf
+
 # How to Run the Code
 To run the code, you need to simply run the main.m file while having all of the functions and other .m files in the same folder. The Saver.m file saves the data from the simulation, Plotter.m file plots the data and arcplotter.m shows the movement of the show robot and creates a video. By default, Saver() and arcplotter() are run at the end of the main.m and Plotter() is commented out. You can just uncomment Plotter() to plot the data.
