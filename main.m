@@ -2,7 +2,6 @@ clc
 clear
 close all
 tic
-ccc = 37;
 cf = 3;
 load('Sim_fixed35.mat');
 
